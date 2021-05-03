@@ -248,10 +248,11 @@
         padding: 50px 5% 30px;
     }
     .company_info{
-        font-size: 13px;
+        font-size: 11px;
         line-height: 1.3;
     }
     .site_info{
+        font-size: 11px;
         line-height: 1.3;
     }
 }

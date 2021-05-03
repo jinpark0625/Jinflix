@@ -43,11 +43,11 @@ window.addEventListener('scroll',function(){
       featureTitle[0].style = "animation:fade_in_opacity 2s forwards";
       featureSubtitle[0].style = "animation:fade_in_opacity 2s forwards";
    }
-   if(per > 27){
+   if(per > 24){
       featureTitle[1].style = "animation:fade_in_opacity 2s forwards";
       featureSubtitle[1].style = "animation:fade_in_opacity 2s forwards";
    }
-   if(per > 45){
+   if(per > 40){
       featureTitle[2].style = "animation:fade_in_opacity 2s forwards";
       featureSubtitle[2].style = "animation:fade_in_opacity 2s forwards";
    }
@@ -94,6 +94,7 @@ emailFormFaq.addEventListener('focusin', emailStartFaq);
 function emailStartFaq(){
       emailLabelFaq.style = "transform: translateY(50%);  font-size:13px; font-weight:700";
 }
+
 emailFormFaq.addEventListener('focusout', emailFinishFaq);
 function emailFinishFaq(){
    if(emailIdValueFaq.value == ""){
