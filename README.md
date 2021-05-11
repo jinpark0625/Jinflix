@@ -22,9 +22,10 @@
 #### 4. 정보 구조 (IA) 
 
     1) Home
-        - Not To-do list
-        - Painting
-
+        - main
+    2) Login
+        - login
+        - 
 #### 5. 디렉토리 설정
 
     1)root
